@@ -1,0 +1,273 @@
+/*
+Theme Name: Porn Theme #4
+Theme URI: https://pornaffiliate.xxx/themes/pt4/
+Author: PornAffiliate.xXx
+Author URI: http://pornaffiliate.xxx/
+Description: Bright lights in the dark light up your sexy content. Create your new porn tube site easily with this free theme. Lightning fast and clean non cluttered code for SEO and user friendlyness. Useful links: <a href="https://pornaffiliate.xxx/themes/pt4/">How to use this theme</a>, <a href="https://pornaffiliate.xxx/video-tube-programs/">porn tube affiliate programs</a>, <a href="https://pornaffiliate.xxx/browse/webcam/">webcam affiliate programs</a>.
+Version: 2.4
+License: Creative Commons 4.0 International
+License URI: https://creativecommons.org/licenses/by/4.0/
+Tags: 
+Text Domain: porntheme
+Porn Theme is copyright www.PornAffiliate.xXx - Do not redistribute without a visible link to "https://pornaffiliate.xxx/themes/" - Thanks!
+*/
+
+body { font-family: "Open Sans", sans-serif; font-size: 14px; background: black; color: white; cursor: default; }
+* { margin: 0; padding: 0; }
+a { color: white; text-decoration: none; }
+#single-wrap { padding: 0 30px; }
+.single #content a { text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; transition: color 0.2s linear; -o-transition: color 0.2s linear; -moz-transition: color 0.2s linear; -webkit-transition: color 0.2s linear; }
+.single #content a:hover { text-decoration: underline; }
+.single article { text-align: center; max-width: 100%; margin: 20px 355px; }
+.single article h1 { font-size: 27px; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; text-transform: uppercase; }
+.single article video { max-width: calc(100% + 40px); width: 900px; height: auto; margin: 10px -20px 10px -20px; }
+.single article iframe { max-width: calc(100% + 40px); width: 900px; height: 500px; margin: 10px -20px 10px -20px; }
+#single-left { float: left; text-align: right; }
+#single-right { float: right; text-align: left; }
+#single-left, #single-right { width: 335px; }
+#single-left img, #single-right img, #single-left iframe, #single-right iframe { border-radius: 10px; }
+#single-content { float: left; width: 100%; text-align: left; margin-top: 5px; }
+.single-wrap { background: rgba(0, 0, 0, 0.5); padding: 20px; box-shadow: 0 0 20px #000; float: left; }
+.c2a-wrap { float: left; width: 49%; }
+.c2a { font-size: 40px; font-family: Montserrat, "Open Sans", sans-serif; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; margin: 0 auto 10px auto -webkit-transition: 500ms linear 0s;
+-moz-transition: 500ms linear 0s; -o-transition: 500ms linear 0s; transition: 500ms linear 0s; padding: 20px 0; width: 100%; float: left; }
+.c2a:hover { text-shadow: 0 0 1px white, 0 0 2px white, 0 0 20px white; }
+#video-meta { float: right; width: 100%; text-align: left; }
+.video-link-set #video-meta { width: 49% }
+#video-meta div { margin-bottom: 6px; }
+#wrap { max-width: 1620px; margin: 20px auto; }
+#site-header { float: left; width: calc(100% - 80px); margin-bottom: 0px; padding: 0 40px; }
+.site-title { float: left; }
+.site-title a { text-decoration: none; font-size: 64px; font-weight: bold; font-family: Montserrat, "Open Sans", sans-serif; text-shadow: 0 0 30px white, 0 0 2px white, 0 0 10px white, 0 0 3px white, 0 0 5px white, 0 0 5px white; }
+.site-title a:hover { }
+.site-title img, footer .site-title img { max-width: 500px; max-height: 150px; }
+.site-description { float: left; margin: 21px 0 0 27px; font-style: italic; font-weight: 100; font-size: 27px; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; }
+#header-menu ul li ul, #main-menu ul li ul { display: none; z-index: 3; }
+#header-menu > div > ul > li:hover > ul { display: block; }
+#header-menu > div > ul > li > ul { position: absolute; width: 160px; white-space: nowrap; margin-top: 5px; }
+#header-menu > div > ul > li > ul > li { float: left; width: 100%; }
+#header-menu > div > ul > li > ul > li > a { background: rgba(255, 255, 255, 0.9); padding: 8px 16px; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 3px white inset; color: black; float: left; width: 100%; border-radius: 0; }
+#header-menu > div > ul > li > ul > li > a:hover { text-decoration: underline; background: white; }
+#header-menu { float: right; }
+#header-menu ul { list-style-type: none; position: relative; z-index: 999; }
+#header-menu ul li a:hover, #main-menu ul li a:hover { box-shadow: 0 0 3px white, 0 0 5px white, 0 0 3px white, 0 0 10px white, 0 0 20px white; position: relative; }
+#header-menu > div > ul > li { float: right; margin-left: 8px; }
+#header-menu > div > ul > li > a { padding: 8px 17px; border-radius: 7px; background: rgb(255, 255, 255); text-decoration: none; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 10px white inset, 0 0 3px white inset; color: black; }
+.toggle-header-menu { display: none; padding: 8px 17px; border-radius: 7px; background: rgba(255, 255, 255, 0.65); text-decoration: none; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 10px white inset, 0 0 3px white inset; color: black; cursor: pointer; border: 0; font-size: 20px; position: fixed; right: 24px; top: 24px; z-index: 5; }
+.toggle-header-menu:hover { background: white; }
+#main-menu { float: left; width: 100%; margin-bottom: 20px; margin-top: 10px; }
+#main-menu > div > ul > li:hover > ul { display: block; }
+#main-menu > div > ul > li > ul { position: absolute; width: 160px; white-space: nowrap; margin-top: -4px; }
+#main-menu > div > ul > li > ul > li { float: left; width: 100%; margin-top: 0px; }
+#main-menu > div > ul > li > ul > li > a { background: rgba(255, 255, 255, 0.9); padding: 8px 16px; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 3px white inset; color: black; float: left; width: 100%; border-radius: 0; }
+#main-menu > div > ul > li > ul > li > a:hover { text-decoration: underline; border-radius: 0; background: white; }
+#main-menu ul { list-style-type: none; position: relative; z-index: 998; }
+#main-menu ul li { float: left; }
+#main-menu div > ul > li > a:active { }
+#main-menu > div > ul > li > a { line-height: 40px; }
+#main-menu ul li a { border-radius: 10px 0; font-size: 115%; margin-right: 8px; padding: 5px 10px; background: white; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 10px white inset, 0 0 3px white inset; color: black; transition: border-radius 0.2s linear; -o-transition: border-radius 0.2s linear; -moz-transition: border-radius 0.2s linear; -webkit-transition: border-radius 0.2s linear; }
+#main-menu > div > ul > li > a:hover { }
+#archive-header { margin-bottom: 11px; }
+#archive-title, #page-title { text-align: center; font-family: Montserrat, "Open Sans", sans-serif; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; font-size: 40px; text-transform: uppercase; }
+#archive-description { text-align: center; }
+#content { text-align: center; }
+.page .content { text-align: left; max-width: 800px; margin: 20px auto; background: rgba(0, 0, 0, 0.5); padding: 20px; box-shadow: 0 0 20px #000; }
+.page .content a { text-decoration: underline; }
+.404-links { margin-top: 20px; }
+.search-form span { }
+.search-form .search-field { border: 1px solid white; font-size: 110%; width: 100%; text-align: center; background: rgba(255, 255, 255, 0.9); padding: 5px 11px; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 3px white inset; border-radius: 15px; color: black; text-transform: uppercase; }
+.search-form .search-field:focus, .search-form .search-field:hover { outline: none; background: rgba(255, 255, 255, 1); }
+ .search-form .search-field::-webkit-input-placeholder {
+ color: black;
+}
+ .search-form .search-field:-moz-placeholder { /* Firefox 18- */
+ color: black;
+}
+ .search-form .search-field::-moz-placeholder {  /* Firefox 19+ */
+ color: black;
+}
+ .search-form .search-field:-ms-input-placeholder {
+ color: black;
+}
+ .search-form .search-field:focus::-webkit-input-placeholder {
+ color: white;
+}
+ .search-form .search-field:focus:-moz-placeholder { /* Firefox 18- */
+ color: white;
+}
+ .search-form .search-field:focus::-moz-placeholder {  /* Firefox 19+ */
+ color: white;
+}
+ .search-form .search-field:focus:-ms-input-placeholder {
+ color: white;
+}
+.search-form .search-submit { display: none; padding: 11px; border-radius: 5px; border: 0; font-size: 110%; margin-left: -11px; cursor: pointer; }
+.widget-title { text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; }
+.widget { margin: 10px; }
+.widget a:hover { text-decoration: underline; }
+.widget_tag_cloud .widget-title { display: none; }
+.widget ul { list-style-type: none; }
+.widget ul li { float: left; margin-right: 10px; }
+#top-center, #bot-center { text-align: center; margin: 10px 0; float: left; width: 100%; }
+#top-center .widget-title, #bot-center .widget-title { text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; }
+#top-center img, #top-center iframe, #bot-center img, #bot-center iframe { max-width: 100%; border-radius: 10px; }
+.tagcloud { line-height: 36px; }
+.tagcloud a { background: rgba(255, 255, 255, 0.9); padding: 5px 11px; box-shadow: 0 0 3px white, 0 0 10px white, 0 0 3px white inset; border-radius: 15px; color: black; text-shadow: none; white-space: nowrap; text-transform: uppercase; }
+.tagcloud a:hover { background: rgba(255, 255, 255, 1); text-decoration: none; }
+#first-in-tube-ad .widget-title, #second-in-tube-ad .widget-title, #third-in-tube-ad .widget-title, #last-in-tube-ad .widget-title { display: none; }
+#first-in-tube-ad img, #second-in-tube-ad img, #third-in-tube-ad img, #last-in-tube-ad img, #first-in-tube-ad iframe, #second-in-tube-ad iframe, #third-in-tube-ad iframe, #last-in-tube-ad iframe { width: 320px; height: 240px; }
+#first-in-tube-ad .widget, #second-in-tube-ad .widget, #third-in-tube-ad .widget, #last-in-tube-ad .widget { border: 2px solid rgba(0, 0, 0, 0); width: 320px; height: 240px; overflow: hidden; padding: 0px; margin: 0px; float: left; }
+.size-porntheme-thumb { width: 320px; height: 240px; }
+.home article, .archive article, .search article { float: left; border: 2px solid rgba(0, 0, 0, 0); width: 320px; height: 240px; }
+.thumb-rating { float: right; height: 0px; position: relative; white-space: nowrap; z-index: 3; margin-right: -1px; }
+.thumb-rating span { border-radius: 0 10px; padding-top: 0px !important; }
+.thumb-quality { float: left; height: 0px; margin-top: -33px; margin-left: 10px; position: relative; white-space: nowrap; }
+.thumb-quality span { border-radius: 0 10px; margin-left: -10px; }
+.thumb-duration { float: right; height: 0px; margin-top: -33px; position: relative; white-space: nowrap; margin-right: -1px; }
+.thumb-duration span { border-radius: 10px 0; }
+.thumb-quality span, .thumb-duration span, .thumb-rating span { -webkit-animation: fadein 1s ease-in; -webkit-animation-iteration-count: 1; opacity: 1; color: white; padding: 3px 12px; text-shadow: 0 0 3px white, 1px 1px 6px #757575; font-size: 137%; background: rgba(0,0,0,0.4); }
+article a:hover img { transition: box-shadow 0.17s ease-in-out; box-shadow: 0 0 50px black, 0 0 27px black, 0 0 9px black, 0 0 20px black, 0 0 11px black, 0 0 9px black; position: relative; }
+.play { position: absolute; z-index: 2; margin-top: 58px; margin-left: 109px; width: 100px; height: 100px; background: rgba(255, 255, 255, 0.51); border: 6px solid rgba(255, 255, 255, 1); border-radius: 100%; box-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px rgba(0, 0, 0, 0.48); transform: scale(1.2, 1.2); }
+.play:after { content: ''; display: inline-block; position: relative; top: 20px; left: 6px; border-style: solid; border-width: 30px 0 30px 45px; border-color: transparent transparent transparent rgb(255, 255, 255); }
+article a .play { display: none; }
+article a:hover .play { display: block; -webkit-animation: play 1s ease-in; -webkit-animation-iteration-count: 1; -webkit-transform: scale(0.8, 0.8); opacity: 1; }
+ @-webkit-keyframes play { 0% {
+ -webkit-transform: scale(0.8, 0.8);
+ opacity: 1;
+}
+ 50% {
+ -webkit-transform: scale(0.9, 0.9);
+ opacity:0.8;
+}
+ 100% {
+ -webkit-transform: scale(0.8, 0.8);
+ opacity: 1;
+}
+}
+ @-webkit-keyframes fadein { 0% {
+ opacity: 0;
+}
+ 50% {
+ opacity: 1;
+}
+ 100% {
+ opacity: 1;
+}
+}
+.lightbar { float: left; border-radius: 13px; background: white; box-shadow: 0 0 100px white, 0 0 10px white, 0 0 40px white, 0 0 3px white; width: 100%; height: 5px; margin-bottom: 12px; margin-top: -43px; position: relative; z-index: -1; }
+.lightbar-bot { float: left; border-radius: 13px; background: rgba(255,255,255,1); box-shadow: 0 0 100px white, 0 0 10px white, 0 0 40px white, 0 0 3px white; width: 100%; height: 5px; margin-bottom: 12px; margin-top: -32px; position: relative; z-index: -1; }
+.lightbar-bot-no-pagination { float: left; border-radius: 13px; background: rgba(255,255,255,1); box-shadow: 0 0 100px white, 0 0 10px white, 0 0 40px white, 0 0 3px white; width: 100%; height: 5px; margin-bottom: 5px; margin-top: 20px; position: relative; z-index: -1; }
+#left-ads, #right-ads { margin-top: 112px; position: fixed; }
+#left-ads img, #right-ads img, #left-ads iframe, #right-ads iframe { border-radius: 10px; }
+#left-ads { margin-left: -134px; text-align: right; }
+#right-ads { margin-left: 1614px; text-align: left; }
+ @media screen and (max-width: 1900px) {
+#left-ads, #right-ads { display: none; }
+}
+#wrap-comments { display: none; }
+#comments { display: none; max-width: 100%; margin: 20px 400px; text-align: left; float: left; }
+#comments ul li { list-style-type: none; padding: 17px; }
+#comments label { float: left; clear: both; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; }
+#comments textarea, #comments input { background: #333; border: 0; padding: 10px; font-size: 16px; color: white; float: left; margin: 10px 0; font-family: "Open Sans", sans-serif; clear: both; max-width: calc(100% - 20px); }
+#comments cite { font-size: 24px; }
+.comment-reply-link { display: none; }
+.comment-meta a { text-shadow: none !important; }
+.comment-form-url { display: none; }
+.pagination { float: left; width: 100%; text-align: center; font-size: 125%; margin: 28px 0 18px 0; }
+.pagination span { padding: 5px 10px; border: 2px solid; border-radius: 5px; box-shadow: 0 0 15px white, 0 0 3px white, 0 0 10px white; cursor: default; background: white; color: black; border-color: white; }
+.pagination span.dots { display: none; border: none; box-shadow: none; color: white; background: none; }
+.pagination a { padding: 5px 10px; border-radius: 4px; box-shadow: 0 0 15px white, 0 0 3px white, 0 0 10px white, 0 0 3px white inset; transition: background 0.5s ease-in-out; transition: color 0.5s ease-in-out; background: rgba(255, 255, 255, 0.9); color: black; }
+.pagination a:hover { background: white; color: black; border-color: white; box-shadow: 0 0 15px white, 0 0 3px white, 0 0 10px white; }
+#four-rows-bottom { float: left; width: calc(100% - 80px); margin-bottom: 0px; padding: 0 40px; font-size: 110%; text-align: center; }
+#four-rows-bottom .widget { width: calc(25% - 20px); float: left; }
+#four-rows-bottom .widget ul li { margin: 0 !important; float: none !important; }
+#four-rows-bottom img { border-radius: 10px; max-width: 100%; height: auto; }
+#four-rows-bottom iframe { max-width: 100%; }
+#footer-menu { text-align: center; float: left; width: 100%; margin-top: 10px; }
+#footer-menu a { text-shadow: 0 0 3px white, 0 0 2px white, 0 0 11px white; margin: 0 5px; }
+#footer-menu a:hover { text-decoration: underline; }
+footer { float: left; width: 100%; margin: 10px 0 30px 0; text-align: center; }
+footer .site-title { float: none; }
+ @media screen and (max-width: 1640px) {
+#loop-wrap { width: 1312px; margin: 0 auto; }
+}
+ @media screen and (max-width: 1315px) {
+#loop-wrap { width: 984px; margin: 0 auto; }
+}
+ @media screen and (max-width: 990px) {
+#loop-wrap { width: 656px; margin: 0 auto; }
+}
+ @media screen and (max-width: 670px) {
+#loop-wrap { width: 100%; }
+}
+ @media screen and (max-width: 1450px) {
+.site-description { margin: 0 0 14px 0; }
+.toggle-header-menu { display: block !important; }
+#header-menu > div { display: none; position: fixed; right: 23px; width: calc(100% - 46px); top: 73px; line-height: 42px; z-index: 4; }
+#header-menu > div > ul > li > ul { margin-top: -3px; line-height: 23px; }
+.single #content iframe { width: 100vw !important; height: 41.25vw !important; }
+.single article { margin-left: 0; }
+#comments { margin-left: 30px; }
+#single-left { display: none; }
+}
+ @media screen and (max-width: 950px) {
+.lightbar { display: none; }
+.single article, #comments { margin-right: 0; }
+#single-right { display: none; }
+.single #content iframe { width: 100vw !important; height: 51.25vw !important; }
+}
+ @media screen and (max-width: 750px) {
+article img { max-width: 100%; height: auto; }
+}
+ @media screen and (max-width: 670px) {
+#site-header { padding: 0; width: 99%; margin-left: 1%; }
+#single-wrap { padding: 0; }
+.home article, .archive article { max-width: calc(50% - 4px); height: auto; margin-bottom: -4px; }
+.size-porntheme-thumb { height: auto; }
+.play { display: none !important; }
+#first-in-tube-ad, #second-in-tube-ad, #third-in-tube-ad, #last-in-tube-ad { width: 100%; text-align: center; float: left; }
+#first-in-tube-ad aside, #second-in-tube-ad aside, #third-in-tube-ad aside, #last-in-tube-ad aside { margin: 0 auto !important; float: none !important; max-width: 100%; }
+#comments { margin-left: 0; }
+.tagcloud { line-height: 31px; }
+.tagcloud a { padding: 5px 7px; border-radius: 3px; font-size: 90% !important; }
+#four-rows-bottom { width: 100%; padding: 0; font-size: 90%; }
+#four-rows-bottom .widget { width: 100%; margin: 10px 0 0 0; }
+}
+ @media screen and (min-width: 500px) {
+#site-header { padding-top: 20px; }
+#site-header .site-title a { margin-right: 25px; margin-top: -20px; float: left; }
+.site-description { margin: 0; }
+}
+ @media screen and (max-width: 500px) {
+.site-title a { font-size: 50px; }
+.site-description { margin: 0; font-size: 18px; line-height: 18px; }
+#wrap { margin: 0; }
+#main-menu { margin: 9px 0; }
+}
+/* Version 2 style additions */
+
+#top-center { margin: -14px 0 0px 0 !important; }
+#single-header-meta { margin-top: -1px; font-size: 90%; text-transform: uppercase; }
+#single-header-meta div { }
+#single-header-meta .published-date { float: left; }
+#single-header-meta .video-quality { float: right; }
+#wrap-single-bottom-date-quality { float: right; margin: 0 0 5px 5px; }
+.published-date-below-video { float: left; margin: 0 !important; }
+.video-quality-below-video { float: left; margin: 0 0 0 5px !important; }
+#last-in-tube-ad { float: left; }
+#last-in-tube-ad .widget { margin: 0; }
+.pt-rating-stars { clear: both; }
+#single-video-rating { float: left; width: 100%; text-align: center; }
+/* Optional styles */
+
+.rounded-borders .size-porntheme-thumb, .rounded-borders #first-in-tube-ad img, .rounded-borders #second-in-tube-ad img, .rounded-borders #first-in-tube-ad iframe, .rounded-borders #second-in-tube-ad iframe, .rounded-borders #third-in-tube-ad img, .rounded-borders #third-in-tube-ad iframe, .rounded-borders #last-in-tube-ad img, .rounded-borders #last-in-tube-ad iframe { border-radius: 10px; }
+article a:hover .light img { box-shadow: 0 0 50px white, 0 0 27px white, 0 0 9px white, 0 0 20px white, 0 0 11px white, 0 0 9px white; }
+article a:hover .none img { box-shadow: none; }
+/* Deprecated: Now using GD-PostRatings plugin instead.
+GD Rating. CSS styles for the video star rating system */
+
+.gdrts-inner-wrapper { text-align: center !important; }
+.gdrts-stars-current, .gdrts-stars-active { color: white !important; text-shadow: 0 0 3px white, 0 0 10px white !important; }
+.gdrts-stars-empty { color: #333 !important; text-shadow: 0 0 3px #333, 0 0 10px #333 !important; }
+.gdrts-rating-text, .gdrts-rating-user { display: none; }
+#comments .gdrts-rating-block { display: none; }
